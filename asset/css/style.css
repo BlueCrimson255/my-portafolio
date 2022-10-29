@@ -148,7 +148,37 @@
         margin: 0 auto;
         display: block;
     }
-    
+    @media (max-width: 700px) {
+        #main {
+            background-color: #3f4e85 ;
+            height: 739px;
+        }
+        #main .info-content {
+            height: 739px;
+            width: 700px;   
+        }
+        #main .info-content h1 {
+            color: #fff;
+            width: 360px;
+            height: 100px;
+            padding: 200px 13px 167px;
+            text-align: center;
+        }
+        #main .info-content .apeidos {
+            color: #7fffd4;
+        }
+        #main .info-content p {
+            color: #fff;
+            height: 100px;
+            left: 50px;
+            position: relative;
+            top: 50px;
+            width: 300px;
+        }
+        #main .photo img {
+            display: none;
+        }    
+    }
 
  /*my portafolio*/ 
     #abount {
