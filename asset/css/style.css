@@ -11,7 +11,8 @@
     }
     #conteiner {
         background-color: #2e3141;
-        position: relative;   
+        position: relative;
+        overflow: hidden;   
     }
     h2, h3, h4, h5 {
         border-bottom: solid 2px rgba(255, 255, 255, 0.125);
@@ -28,6 +29,9 @@
         }
         #menu-check:checked ~ ul {
             display: block;
+            
+            padding: 30px;
+            place-content: space-between;
         }
         #menu {
             display: block;
@@ -57,7 +61,7 @@
         #menu #menu-cerrar img {
             height: 30px;
             width: 30px;
-        }
+        }        
      }
 
 /*navbar*/
@@ -69,15 +73,15 @@
         top: 0; 
         width: 100%;
         z-index: 1;
+        display: flex;
     }
     #navbar #menu-nav a{
         display: flex;
-        justify-content: space-between;
-        padding: 1em;
+        padding: 30px;
     }
     #menu-nav {
         display: flex;
-        justify-content: space-around;
+        place-content: space-between;
     }
     #menu-nav li{
         list-style: none;
