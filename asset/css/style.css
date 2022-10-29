@@ -160,8 +160,8 @@
         #main .info-content h1 {
             color: #fff;
             width: 360px;
-            height: 100px;
-            padding: 200px 13px 167px;
+            height: 200px;
+            padding: 200px 0px 160px;
             text-align: center;
         }
         #main .info-content .apeidos {
@@ -244,70 +244,67 @@
         position: relative;
         width: calc(100% + 3.5em);
     }
+    @media (max-width: 700px) {
+        #abount {
+            background-color: #2e3141;   
+            height: 739px; 
+        }
+        #abount .my-portafolio {
+            height: 739px;
+            width: 700px;
+        }
+        #abount .my-portafolio h2 {
+            font-size: 1em;
+            color: #ffffff;
+            font-family: Raleway, Helvetica, sans-serif;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            margin: 0 0 1em 0;
+            text-transform: uppercase;
+        }
+        #abount .parafo-de-descripción {
+            color: #ffffff;
+            width: 25%;
+            font-family: Raleway, Helvetica, sans-serif;
+            font-weight: 200px;
+            margin: 0 0 1em 0;
+            text-transform: uppercase;
+        }
     
+        #conteiner .my-portafolio {
+            padding: 3em 0 1em 0;
+            margin: 0 auto;
+            width: 84em;
+        }
+        #features {
+            flex-wrap: wrap;
+            margin: 0 0 2em 0;
+            display: flex;
+        }
+        #features article {
+            padding: 1.75em 1.75em 0.1em 1.75em;
+            background-color: #353849;
+            border-radius: 10px 10px ;
+            margin: 1.5em 3em 1.5em 0;
+            width: calc(50% - 1.5em);
+        }
+        #features article:nth-child(2n) {
+            margin-right: 0;
+        } 
+        #features article .image img {
+            border-radius: 10px 10px 10px 10px;
+            width: 53%;
+            height: 200px;
+        }
+        #features article .image {
+            border-radius: 5px 5px 0 0;
+            display: block;
+            margin-bottom: 1.75em;
+            margin-left: -1.75em;
+            margin-top: -1.75em;
+            position: relative;
+            width: calc(100% + 3.5em);
+        }    
+    }
 /*footer*/
-    #contenedor-footer .conteiner-redes-sociales {
-        text-align: center;
-    }
-    #contenedor-footer span {
-        color: #f1f1f1;
-    }
-    #contenedor-footer {
-        background-color: hsl(210,8%,15%);
-        height: 75px;
-        width: 100%;
-    }
-    #contenedor-footer .boton {
-        display: inline-block;
-        width: 60px;
-        height: 60px;
-        margin: 5px 0px;
-        background: #3f4e85;
-        border-radius: 50px;
-        cursor: pointer;
-        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
-        transition: all 0.3s ease-out;
-        overflow: hidden;
-    }
-    #contenedor-footer .boton .icono{
-        display: inline-block;
-        height: 60px;
-        width: 60px;
-        text-align: center;
-        border-radius: 50px;
-        box-sizing: border-box;
-        line-height: 60px;
-        transition: all 0.3s ease-out;
-    }
-    #contenedor-footer .boton .icono i{
-        font-size: 25px;
-        line-height: 60px;
-    }
-    #contenedor-footer .boton span{
-        font-size: 20px;
-        font-weight: 50px;
-        line-height: 60px;
-        margin-left: 10px;
-    }
-    #contenedor-footer .boton:hover{
-        width: 200px;
-    }
-    #contenedor-footer .boton:nth-child(1):hover .icono{
-        background: #4267b2;
-    }
-    #contenedor-footer .boton:nth-child(2):hover .icono{
-        background: #1DA1F2;
-    }
-    #contenedor-footer .boton:nth-child(3):hover .icono{
-        background: #128c7e;
-    }
-    #contenedor-footer .boton:nth-child(4):hover .icono{
-        background: #333;
-    }
-    #contenedor-footer .boton:nth-child(5):hover .icono{
-        background: #fd44d5;
-    }
-    #contenedor-footer .boton:hover .icono i{
-        color: #fff;
-    }
     
