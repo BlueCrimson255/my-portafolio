@@ -92,16 +92,7 @@
     #menu-nav .Inicio{
         color: #0000ff;
     }
-    #menu-nav .Inicio a:hover {
-        color: #ffee00;
-    }
-    #menu-nav .habilidades a:hover {
-        color: rgb(150, 50, 150);
-    }
-    #menu-nav .Portafolio a:hover {
-        color: #00ff22;
-    }
-    #menu-nav .Contacto a:hover {
+    #menu-nav a:hover {
         color: #00ffea;
     }
     #navbar .logo {
