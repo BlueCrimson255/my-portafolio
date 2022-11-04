@@ -13,7 +13,7 @@
     #conteiner {
         background-color: #2e3141;
         position: relative;
-        /*overflow: hidden;*/   
+        overflow: hidden;   
     }
     h2, h3, h4, h5 {
         border-bottom: solid 2px rgba(255, 255, 255, 0.125);
@@ -142,7 +142,8 @@
     @media (max-width: 700px) {
         #main {
             background-color: #3f4e85 ;
-            height: 739px;
+            height: 733px;
+            width: 50em;
         }
         #main .info-content {
             height: 739px;
@@ -238,8 +239,8 @@
     @media (max-width: 700px) {
         #abount {   
             background-color: #2e3141;   
-            padding: 3em 0 1em 0;
-            margin: 10px;
+            padding: 0;
+            margin: 0 auto;
             width: 50em; 
         }
         #abount .my-portafolio {
@@ -251,7 +252,7 @@
             font-family: Raleway, Helvetica, sans-serif;
             font-weight: 700;
             letter-spacing: 0.1em;
-            margin: 0 0 1em 0;
+            margin: 30px 30px;
             text-transform: uppercase;
         }
         #abount .parafo-de-descripción {
@@ -259,7 +260,7 @@
             width: 25%;
             font-family: Raleway, Helvetica, sans-serif;
             font-weight: 200px;
-            margin: 0 0 1em 0;
+            margin: 30px;
             text-transform: uppercase;
         }
         #features p {
@@ -278,13 +279,13 @@
         }
         #features {
             flex-wrap: wrap;
-            margin: 0 0 2em 0;
+            margin: 30px;
             display: flex;
         }
         #features article {
             padding: 1.75em 1.75em 0.1em 1.75em;
             border-radius: 10px 10px ;
-            margin: 1.5em 3em 1em 0;
+            margin: 1.5em 3em 1em -9px;
             width: calc(50% - 1em);
         }
         #features article:nth-child(2n) {
